@@ -22,5 +22,5 @@
     comment
 */
 
-/* Examle */
+/* Example */
 console.log("Hello"); // This shows a message in the console
