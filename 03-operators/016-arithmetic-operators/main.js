@@ -8,6 +8,8 @@ console.log(21 + "Hemza"); // This will log "21Hemza" due to "type coercion"
 
 /* [-] Subtraction */
 console.log(5 - 2); // 3
+console.log("Hemza" - 133); // This logs NaN (Not a Number), because we can't apply this operation between a string and a number
+console.log(typeof NaN); // number
 
 /* [*] Multiplication */
 console.log(6 * 6); // 36
