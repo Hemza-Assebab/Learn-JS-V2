@@ -10,7 +10,7 @@
 let username = "Hemza";
 console.log(username.charAt(0)); // H
 console.log(username.charAt(2)); // m
-// We can also access characters using the brackets:
+// You can also access characters using the brackets:
 console.log(username[0]); // H
 
 /* length */
@@ -41,6 +41,6 @@ console.log("Hamza".toUpperCase()); // "HAMZA"
 console.log("HAMZA".toLowerCase()); // "hamza"
 
 /* Methods Chaining */
-// We can apply many methods to a string just in one line by chaining them
+// You can apply many methods to a string just in one line by chaining them
 let test = " hey ";
 console.log(test.trim().charAt().toUpperCase()); // H
