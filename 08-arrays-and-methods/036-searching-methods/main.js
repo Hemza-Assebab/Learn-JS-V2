@@ -23,7 +23,6 @@ console.log(colors.indexOf('yellow'));   // -1 (not found)
 let arr = [{a:1}, {b:2}];
 console.log(arr.indexOf({a:1})); // -1 | different object reference
 
-
 /* lastIndexOf() */
 /*
     -This method is used to find the last occurrence of a specific element in an array
