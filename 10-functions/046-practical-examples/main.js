@@ -23,4 +23,4 @@ function generateYears(start, end) {
         console.log(i);
     }
 }
-generateYears(2000, 2003); // This outpusts: 2000 2001 2002 2003 
+generateYears(2000, 2003); // This outpusts: 2000 2001 2002 2003
