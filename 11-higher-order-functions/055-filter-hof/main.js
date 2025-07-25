@@ -46,3 +46,11 @@ const users = [
 ];
 const adults = users.filter(user => user.age >= 18);
 console.log(adults); // [{ name: "Bob", age: 22 }, { name: "Charlie", age: 18 }]
+
+/* Real-World Use Cases */
+/*
+    -Filter users by role or permission
+    -Filter products in stock
+    -Filter out invalid data
+    -Search/filter UI results
+*/
