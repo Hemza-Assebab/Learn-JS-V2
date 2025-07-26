@@ -35,3 +35,14 @@ console.log(hemza); // {id: 2, name: 'Hemza'}
 const numbers2 = [1, 3, 5];
 const firstEven = numbers2.find(num => num % 2 === 0);
 console.log(firstEven); // undefined
+
+/* find() vs findIndex */
+/*
+  -findIndex() returns the index of the first element matching the condition (When the callback returns true)
+  -If no element was found it returns -1
+
+  -NOTE: findIndex() has the same syntax as the find() method
+*/
+const names = ["Sam", "Tom", "Lucy"];
+const nameStartsWithT = names.findIndex(name => name.startsWith("T"));
+console.log(nameStartsWithT); // 1 (Index of "Tom" in the array)
