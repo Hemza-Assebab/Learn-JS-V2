@@ -2,6 +2,7 @@
 /*
     -The find() method returns the first element in an array that satisfies a given condition (the callback function returns true)
     -If no element matches the condition, it returns undefined
+    -It doesn't change the original array
 */
 
 /* Syntax */
