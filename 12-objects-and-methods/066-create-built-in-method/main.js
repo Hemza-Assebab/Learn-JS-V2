@@ -1,4 +1,4 @@
-/* create() Built-in Method */
+/* Object.create() Built-in Method */
 /*
     -Object.create() is a built-in JavaScript method that creates a new object and sets its prototype to an existing object you provide
     -It allows you to create objects inheriting from another object
