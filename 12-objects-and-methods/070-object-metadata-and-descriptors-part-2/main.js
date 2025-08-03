@@ -36,7 +36,6 @@ console.log(descriptor); // {set: undefined, enumerable: true, configurable: tru
 /*
     -This method returns all property descriptors of an object
     -Not just one but for every own property (including non-enumerable ones and accessors)
-
     -It returns an object where each key is a property name, and each value is that property's descriptor
 
     -Syntax: Object.getOwnPropertyDescriptors(object)
@@ -75,3 +74,13 @@ console.log(descriptors);
         }
     }
 */
+// Example: Cloning with property behavior preserved
+const user = {};
+Object.defineProperty(user, "id", {
+    value: 1,
+    writable: false,
+    enumerable: false,
+    configurable: false,
+});
+const clone = Object.defineProperties({}, Object.getOwnPropertyDescriptors(user));
+console.log(Object.getOwnPropertyDescriptors(clone));
