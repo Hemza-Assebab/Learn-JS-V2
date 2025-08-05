@@ -42,3 +42,11 @@ console.log(f); // 1
 console.log(g); // 2
 console.log(h); // 3
 console.log(i); // 4
+
+/* Rest Operator */
+// You can collect the remaining items using the rest syntax:
+const array5 = [1, 2, 3, 4, 5];
+const [one, two, ...rest] = array5;
+console.log(one);  // 1
+console.log(two);  // 2
+console.log(rest); // [3, 4, 5]
